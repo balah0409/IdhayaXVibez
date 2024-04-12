@@ -28,7 +28,7 @@ START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAIYJ2XDYrt9C1aT2TMAA
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Thava X Music")
 
-POWERED_BY = getenv("POWERED_BY", "˹ 𝐓ʜᴀᴠᴀ ✘ 𝐌ᴜꜱɪᴄ ˼")
+POWERED_BY = getenv("POWERED_BY", "˹ Idhayan ˼")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -86,10 +86,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/4901ceb88125d76898dad.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/45c6a8f8cfb45454293ed.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/30577470793677e5408ee.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/ab9162795beb2863948fb.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/7db32a17b15440fa88f91.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/02af26494524244cf83d0.jpg"
