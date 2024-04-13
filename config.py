@@ -95,7 +95,7 @@ PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL", "https://telegra.ph/file/f1c912f366e4696d292c7.jpg"
 )
 STATS_IMG_URL = getenv(
-    "STATS_IMG_URL", "https://telegra.ph/file/f1c912f366e4696d292c7.jpg"
+    "STATS_IMG_URL", "https://telegra.ph/file/ceb40a2b642db9aff9a1a.jpg"
 )
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/fa144f06d6d024877edda.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/fa144f06d6d024877edda.jpg"
