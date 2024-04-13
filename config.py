@@ -26,7 +26,7 @@ OWNER_ID = int(getenv("OWNER_ID", "1471469091"))
 
 START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAEL5olmGPWEXFq5JVQtvFpiKqx1mY3F4AACBwgAAssdOVf48RP1cE0UejQE")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Thava X Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Idhaya X Music")
 
 POWERED_BY = getenv("POWERED_BY", "𝐈𝐃𝐇𝐀𝐘𝐀𝐍ᥫ᭡")
 
