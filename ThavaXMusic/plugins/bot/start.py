@@ -24,6 +24,18 @@ from ThavaXMusic.utils.inline import first_page, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
+#--------------------------
+
+NEXI_IMG = [
+"https://telegra.ph/file/1b0e822e4e475ba71d7bd.mp4",
+"https://telegra.ph/file/cb862d1ea374b73fbe78a.mp4",
+"https://telegra.ph/file/bad1bf67a291b3d3c5bae.mp4",
+"https://telegra.ph/file/d84709aca2d98b96076cb.mp4",
+"https://telegra.ph/file/686745dc89b8fb29fcb68.mp4",
+"https://telegra.ph/file/514f01f4e27bd8666055b.mp4",
+"https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
+
+]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
@@ -37,7 +49,7 @@ async def start_pm(client, message: Message, _):
                 sticker=config.START_STICKER_ID,
             )
             return await message.reply_photo(
-                photo=config.START_IMG_URL,
+                random.choice(NEXI_IMG),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -92,7 +104,7 @@ async def start_pm(client, message: Message, _):
             sticker=config.START_STICKER_ID,
         )    
         await message.reply_photo(
-            photo=config.START_IMG_URL,
+                random.choice(NEXI_IMG),
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
@@ -109,7 +121,7 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
-        photo=config.START_IMG_URL,
+            random.choice(NEXI_IMG),
         caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -144,7 +156,7 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply_photo(
-                    photo=config.START_IMG_URL,
+                random.choice(NEXI_IMG),
                     caption=_["start_3"].format(
                         message.from_user.first_name,
                         app.mention,
