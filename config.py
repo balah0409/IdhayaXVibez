@@ -28,6 +28,7 @@ START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAEL5olmGPWEXFq5JVQtv
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Idhaya X Music")
 
+POWERED_BY = getenv("POWERED_BY", "𝐈𝐃𝐇𝐀𝐘𝐀𝐍ᥫ᭡")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
