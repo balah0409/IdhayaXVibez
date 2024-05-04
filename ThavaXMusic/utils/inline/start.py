@@ -31,7 +31,7 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text="𝖣𝖠𝖱𝖫𝖨𝖭𝖦 ᥫ᭡", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="𝖬𝖠𝖨𝖭𝖳𝖠𝖨𝖭𝖤𝖣 𝖡𝖸", url=f"https://t.me/Ak1082"),
+            InlineKeyboardButton(text="𝖬𝖠𝖨𝖭𝖳𝖠𝖨𝖭𝖤𝖣 𝖡𝖸", url=f"https://t.me/Idhayann"),
         ],
     ]
     return buttons
