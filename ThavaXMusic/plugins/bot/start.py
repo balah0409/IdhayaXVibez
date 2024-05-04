@@ -27,13 +27,13 @@ from strings import get_string
 #--------------------------
 
 NEXI_IMG = [
-"https://telegra.ph/file/1b0e822e4e475ba71d7bd.mp4",
-"https://telegra.ph/file/cb862d1ea374b73fbe78a.mp4",
-"https://telegra.ph/file/bad1bf67a291b3d3c5bae.mp4",
-"https://telegra.ph/file/d84709aca2d98b96076cb.mp4",
-"https://telegra.ph/file/686745dc89b8fb29fcb68.mp4",
-"https://telegra.ph/file/514f01f4e27bd8666055b.mp4",
-"https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
+"https://telegra.ph/file/e436fc7a02042fb786cba.jpg",
+"https://telegra.ph/file/8b98d788c62467f59dece.jpg",
+"https://telegra.ph/file/ae2c5b572069e3675113c.jpg",
+"https://telegra.ph/file/420eb6faa34adb0a4e189.jpg",
+"https://telegra.ph/file/aa6ef6d764cfd61d93a94.jpg",
+"https://telegra.ph/file/1cc783c425ab8f1ef2e5a.jpg",
+"https://telegra.ph/file/471afd72520132b580db7.jpg",
 
 ]
 
