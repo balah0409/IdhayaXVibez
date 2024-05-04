@@ -16,7 +16,7 @@ from config import BANNED_USERS, PING_IMG_URL, SUPPORT_CHAT
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_photo(
-        photo=PING_IMG_URL,
+        photo="https://telegra.ph/file/e500a4952873f1476196e.jpg",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await THAVA.ping()
