@@ -12,7 +12,7 @@ from ThavaXMusic.utils import THAVABin, get_channeplayCB, seconds_to_min
 from ThavaXMusic.utils.database import get_cmode, is_active_chat, is_music_playing
 from ThavaXMusic.utils.decorators.language import language, languageCB
 from ThavaXMusic.utils.inline import queue_back_markup, queue_markup
-from config import BANNED_USERS, POWERED_BY
+from config import BANNED_USERS,
 
 basic = {}
 
