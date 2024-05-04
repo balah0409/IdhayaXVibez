@@ -221,7 +221,7 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
         else:
             IMAGE = get_image(videoid)
     send = _["queue_6"] if DUR == "Unknown" else _["queue_7"]
-    cap = _["queue_8"].format(app.mention, title, typo, user, send, POWERED_BY)
+    cap = _["queue_8"].format(app.mention, title, typo, user, send)
     upl = (
         queue_markup(_, DUR, cplay, videoid)
         if DUR == "Unknown"
