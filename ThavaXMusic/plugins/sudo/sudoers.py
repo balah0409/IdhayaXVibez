@@ -52,7 +52,7 @@ GAMDOP = START_IMG_URL
 async def sudoers_list(client, message: Message):
     keyboard = [[InlineKeyboardButton(" sᴜᴅᴏʟɪsᴛ ", callback_data="check_sudo_list")]]
     reply_markups = InlineKeyboardMarkup(keyboard)
-    await message.reply_photo(photo=GAMDOP, caption="➤ ᴄʜᴇᴄᴋ ᴛᴏ sᴇᴇɴ ᴛʜᴇ ᴍᴀɢɪᴄ ʙʟɪɴɢ ʙʟɪɴɢ ✨.\n\n <u><b>ɴᴏᴛᴇ:</b></u> ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ.", reply_markup=reply_markups)
+    await message.reply_photo(photo="https://telegra.ph/file/c5a4bf7940c331357a839.jpg", caption="➤ ᴄʜᴇᴄᴋ ᴛᴏ sᴇᴇɴ ᴛʜᴇ ᴍᴀɢɪᴄ ʙʟɪɴɢ ʙʟɪɴɢ ✨.\n\n <u><b>ɴᴏᴛᴇ:</b></u> ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ.", reply_markup=reply_markups)
 
 
 @app.on_callback_query(filters.regex("^check_sudo_list$"))
